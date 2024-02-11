@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/groupcoverpic"
+        android:alpha="0.3"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/propic"
+            />
+
+        <EditText
+            android:id="@+id/rgusername"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/email_pass_border"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/rgemail"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/email_pass_border"
+            android:hint="Email or Phone Number"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/rgpassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/email_pass_border"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/rgrepassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/email_pass_border"
+            android:hint="Re-enter Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            />
+
+        <Button
+            android:id="@+id/signupbutton"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#003C78"
+            android:text="Sign up"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:padding="7dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Have you an account?"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/loginbut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#404040"
+            android:padding="10dp"
+            android:text="Log in"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

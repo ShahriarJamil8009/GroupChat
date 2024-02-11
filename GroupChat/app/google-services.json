@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "810490709280",
+    "project_id": "groupchat-8009",
+    "storage_bucket": "av-messenger-dc8f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936494095561:android:4d1bea30267042f0a4c118",
+        "android_client_info": {
+          "package_name": "com.av.avmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936494095561-7fru4bqd3l5khgr6jsposog1tn4huc9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaJ0HfjUp9NUsOec8RZGl_vzI-M3mF_iQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936494095561-7fru4bqd3l5khgr6jsposog1tn4huc9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
